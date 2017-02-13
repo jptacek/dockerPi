@@ -1,0 +1,14 @@
+pia:
+  build: .
+  expose:
+    - 80
+
+pib:
+  build: .
+  expose:
+    - 80
+
+pic:
+  build: .
+  expose:
+    - 80

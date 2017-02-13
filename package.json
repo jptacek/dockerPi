@@ -1,0 +1,13 @@
+{
+  "name": "docker_node_pi",
+  "version": "0.1.0",
+  "description": "Node.js calculating Pi with Docker",
+  "author": "John Ptacek <jptacek@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
