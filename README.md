@@ -1,5 +1,13 @@
 ## Step 2 ##
 ### Monte Carlo Pi app ###
+Create a new image
+`docker build -t jptacek/dockerpi2 .`
+
+Run image
+`docker run -p 1234:3000 jptacek/dockerpi2`
+
+Stop executing image
+`docker stop <id>`
 
 ## Step 1 ##
 ### Build the image and execute it ###

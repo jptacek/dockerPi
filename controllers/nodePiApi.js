@@ -1,17 +1,20 @@
 "use strict";
 
-let logger = require('./../shared/winstonLogger');
+const logger = require('./../shared/winstonLogger');
 
-function calcPi(req, res) {
+const piCalc = require('./../shared/piCalc');
+
+
+function calcPiApi(req, res) {
   logger.debug('');
     logger.debug('Calc Pi');
-    let pi =0;
-    let iterations = req.params.iterations;
+    let piJson =0;
+    const iterations = req.params.iterations;
     logger.debug('Iterations: '+iterations);
       res.setHeader('Content-Type', 'application/json');
-      pi = 3.141;
+      piJson= piCalc.calcPi(iterations);
       res.setHeader('Access-Control-Allow-Origin', '*');
-     res.send('{"pi":' + pi +'}');
+     res.send(piJson);
 }
 
-exports.calcPi = calcPi;
+exports.calcPiApi = calcPiApi;

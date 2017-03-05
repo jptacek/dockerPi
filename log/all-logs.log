@@ -16,3 +16,62 @@
 {"meta":"","level":"debug","message":"","timestamp":"3:44:35 PM"}
 {"level":"debug","message":"Calc Pi","timestamp":"3:44:35 PM"}
 {"level":"debug","message":"Iterations: 10000","timestamp":"3:44:35 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"3:59:08 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"3:59:08 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"3:59:08 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:00:42 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:00:42 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:00:42 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:13:51 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:13:51 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:13:51 PM"}
+{"date":"Sun Mar 05 2017 16:15:15 GMT-0600 (CST)","process":{"pid":12192,"uid":1000,"gid":1000,"cwd":"/home/john/Src/GitLab/DockerPi","execPath":"/usr/local/bin/node","version":"v7.4.0","argv":["/usr/local/bin/node","/home/john/Src/GitLab/DockerPi/server"],"memoryUsage":{"rss":36139008,"heapTotal":13611008,"heapUsed":9418472,"external":178800}},"os":{"loadavg":[0.71533203125,0.9697265625,0.98974609375],"uptime":15923},"trace":[{"column":16,"file":"vm.js","function":"Object.exports.runInThisContext","line":78,"method":"exports.runInThisContext","native":false},{"column":28,"file":"module.js","function":"Module._compile","line":543,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Object.Module._extensions..js","line":580,"method":"Module._extensions..js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":488,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":447,"method":null,"native":false},{"column":3,"file":"module.js","function":"Function.Module._load","line":439,"method":"Module._load","native":false},{"column":17,"file":"module.js","function":"Module.require","line":498,"method":"require","native":false},{"column":19,"file":"internal/module.js","function":"require","line":20,"method":null,"native":false},{"column":16,"file":"/home/john/Src/GitLab/DockerPi/controllers/nodePiApi.js","function":"","line":5,"method":null,"native":false},{"column":32,"file":"module.js","function":"Module._compile","line":571,"method":"_compile","native":false}],"stack":["/home/john/Src/GitLab/DockerPi/shared/piCalc.js:25","exports.calcPi = calcPi;","^^^^^^^","SyntaxError: Unexpected identifier","    at Object.exports.runInThisContext (vm.js:78:16)","    at Module._compile (module.js:543:28)","    at Object.Module._extensions..js (module.js:580:10)","    at Module.load (module.js:488:32)","    at tryModuleLoad (module.js:447:12)","    at Function.Module._load (module.js:439:3)","    at Module.require (module.js:498:17)","    at require (internal/module.js:20:19)","    at Object.<anonymous> (/home/john/Src/GitLab/DockerPi/controllers/nodePiApi.js:5:16)","    at Module._compile (module.js:571:32)"],"level":"error","message":"uncaughtException: Unexpected identifier","timestamp":"4:15:15 PM"}
+{"date":"Sun Mar 05 2017 16:16:04 GMT-0600 (CST)","process":{"pid":12439,"uid":1000,"gid":1000,"cwd":"/home/john/Src/GitLab/DockerPi","execPath":"/usr/local/bin/node","version":"v7.4.0","argv":["/usr/local/bin/node","/home/john/Src/GitLab/DockerPi/server"],"memoryUsage":{"rss":36237312,"heapTotal":13611008,"heapUsed":9397040,"external":178800}},"os":{"loadavg":[0.4345703125,0.86328125,0.953125],"uptime":15971},"trace":[{"column":16,"file":"vm.js","function":"Object.exports.runInThisContext","line":78,"method":"exports.runInThisContext","native":false},{"column":28,"file":"module.js","function":"Module._compile","line":543,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Object.Module._extensions..js","line":580,"method":"Module._extensions..js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":488,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":447,"method":null,"native":false},{"column":3,"file":"module.js","function":"Function.Module._load","line":439,"method":"Module._load","native":false},{"column":17,"file":"module.js","function":"Module.require","line":498,"method":"require","native":false},{"column":19,"file":"internal/module.js","function":"require","line":20,"method":null,"native":false},{"column":16,"file":"/home/john/Src/GitLab/DockerPi/controllers/nodePiApi.js","function":"","line":5,"method":null,"native":false},{"column":32,"file":"module.js","function":"Module._compile","line":571,"method":"_compile","native":false}],"stack":["/home/john/Src/GitLab/DockerPi/shared/piCalc.js:25","exports.calcPi = calcPi;","^^^^^^^","SyntaxError: Unexpected identifier","    at Object.exports.runInThisContext (vm.js:78:16)","    at Module._compile (module.js:543:28)","    at Object.Module._extensions..js (module.js:580:10)","    at Module.load (module.js:488:32)","    at tryModuleLoad (module.js:447:12)","    at Function.Module._load (module.js:439:3)","    at Module.require (module.js:498:17)","    at require (internal/module.js:20:19)","    at Object.<anonymous> (/home/john/Src/GitLab/DockerPi/controllers/nodePiApi.js:5:16)","    at Module._compile (module.js:571:32)"],"level":"error","message":"uncaughtException: Unexpected identifier","timestamp":"4:16:04 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:16:57 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:16:57 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:16:57 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:17:08 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:17:08 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:17:08 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:19:27 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:19:28 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:19:28 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:19:32 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:19:32 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:19:32 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:19:57 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:19:57 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:19:57 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:20:05 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:20:05 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:20:05 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:20:09 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:20:09 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:20:09 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:21:18 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:21:18 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:21:18 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:21:33 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:21:33 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:21:33 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:22:07 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:22:07 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:22:07 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:22:16 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:22:16 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:22:16 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:23:11 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:23:11 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:23:11 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:23:24 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:23:24 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:23:24 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:25:02 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:25:02 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"4:25:02 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:25:10 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:25:10 PM"}
+{"level":"debug","message":"Iterations: 1000","timestamp":"4:25:10 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"4:25:36 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"4:25:36 PM"}
+{"level":"debug","message":"Iterations: 1001","timestamp":"4:25:36 PM"}
