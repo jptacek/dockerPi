@@ -1,6 +1,8 @@
+## Step 2 ##
+### Monte Carlo Pi app ###
 
-##Step 1##
-Build the image and execute it
+## Step 1 ##
+### Build the image and execute it ###
 
 Create image 
 `docker build -t jptacek/dockerpi .`
