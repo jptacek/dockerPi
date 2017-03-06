@@ -1,6 +1,6 @@
 "use strict"
 
-const logger = require('./../shared/winstonLogger');
+const logger = require('./winstonLogger');
 
 function calcPi(iterations) {
     const radiusCircle = 5;
@@ -20,7 +20,8 @@ function calcPi(iterations) {
             pointsInsideCircle++;
         }
         calculatedPi = (4 * pointsInsideCircle / pointsIterated);
-        console.log(pointsInsideCircle + "/" + pointsIterated + " pi == " +calculatedPi);
+        logger.debug(pointsInsideCircle + "/" + pointsIterated + " pi == " +calculatedPi);
+
     }
     let piJson = '{"pi":' + calculatedPi + ',\r\n';
     piJson = piJson+'"iterations":' + iterations + ',\r\n';

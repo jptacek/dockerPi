@@ -10,6 +10,8 @@ const PORT = 3000;
 
 
 require('./routes')(app);
+const logger = require('./shared/winstonLogger');
+
 
 // App
 app.get('/', function (req, res) {
@@ -17,4 +19,6 @@ app.get('/', function (req, res) {
 });
 
 app.listen(PORT);
-console.log('Running on http://localhost:' + PORT +' container: ' +hostname);
+
+console.log ('Running on http://localhost:' + PORT +' container: ' +hostname);
+logger.debug('Running on http://localhost:' + PORT +' container: ' +hostname);
