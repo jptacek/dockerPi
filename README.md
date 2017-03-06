@@ -1,4 +1,4 @@
-## Step 2 ##
+## Step 3 ##
 ### External mount ###
 Create a new image
 `docker build -t jptacek/dockerpi3 .`
@@ -6,6 +6,8 @@ Create a new image
 Run image with external volume
 `docker run -p 1234:3000 -v /home/john/dlog:/log jptacek/dockerpi3`
 
+and for windows
+`docker run -p 1234:3000 -v c:/dlog:/log jptacek/dockerpi3`
 
 ## Step 2 ##
 ### Monte Carlo Pi app ###
