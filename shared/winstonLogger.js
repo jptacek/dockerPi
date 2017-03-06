@@ -4,7 +4,7 @@ let winston = require('winston');
 winston.emitErrs = true;
 const fs = require('fs');
 const env = process.env.NODE_ENV || 'development';
-const logDir = '/log';
+const logDir = './log';
 
 // Create the log directory if it does not exist
 if (!fs.existsSync(logDir)) {
@@ -18,7 +18,7 @@ let logger = new winston.Logger({
         new winston.transports.File({
            timestamp: tsFormat,
             level: 'debug',
-            filename: '/log/all-logs.log',
+            filename: './log/all-logs.log',
             handleExceptions: true,
             json: true,
             maxsize: 5242880, //5MB

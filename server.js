@@ -6,8 +6,8 @@ const os = require("os");
 const app = express();
 const hostname = os.hostname();
 // Constants
-const PORT = 3000;
-
+const portDefault = 3000;
+var PORT = process.env.PORT || portDefault;
 
 require('./routes')(app);
 const logger = require('./shared/winstonLogger');

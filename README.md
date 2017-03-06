@@ -1,3 +1,17 @@
+## Step 4 ##
+### EDeploy to Docker Hub ###
+* change port to 80
+* get rid of log file
+
+Create a new image
+`docker build -t jptacek/dockerpi4 .`
+
+Tag file
+`docker tag [id] jptacek/dockerpi4:latest`
+
+and for windows
+`docker push jptacek/dockerpi4`
+
 ## Step 3 ##
 ### External mount ###
 Create a new image
