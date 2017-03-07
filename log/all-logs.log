@@ -75,3 +75,6 @@
 {"meta":"","level":"debug","message":"","timestamp":"4:25:36 PM"}
 {"level":"debug","message":"Calc Pi","timestamp":"4:25:36 PM"}
 {"level":"debug","message":"Iterations: 1001","timestamp":"4:25:36 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"12:35:30 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"12:35:30 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"12:35:30 PM"}
