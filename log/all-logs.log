@@ -75,3 +75,13 @@
 {"meta":"","level":"debug","message":"","timestamp":"4:25:36 PM"}
 {"level":"debug","message":"Calc Pi","timestamp":"4:25:36 PM"}
 {"level":"debug","message":"Iterations: 1001","timestamp":"4:25:36 PM"}
+{"level":"debug","message":"Running on http://localhost:3000 container: Ptacek-MacBook.local","timestamp":"5:49:06 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"5:49:22 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"5:49:22 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"5:49:22 PM"}
+{"level":"debug","message":"9/10 pi == 3.6","timestamp":"5:49:22 PM"}
+{"level":"debug","message":"Running on http://localhost:3000 container: Ptacek-MacBook.local","timestamp":"5:50:41 PM"}
+{"meta":"","level":"debug","message":"","timestamp":"5:51:01 PM"}
+{"level":"debug","message":"Calc Pi","timestamp":"5:51:01 PM"}
+{"level":"debug","message":"Iterations: 10","timestamp":"5:51:01 PM"}
+{"level":"debug","message":"9/10 pi == 3.6","timestamp":"5:51:01 PM"}

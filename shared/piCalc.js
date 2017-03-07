@@ -20,12 +20,14 @@ function calcPi(iterations) {
             pointsInsideCircle++;
         }
         calculatedPi = (4 * pointsInsideCircle / pointsIterated);
-        logger.debug(pointsInsideCircle + "/" + pointsIterated + " pi == " +calculatedPi);
 
     }
+    logger.debug(pointsInsideCircle + "/" + pointsIterated + " pi == " +calculatedPi);
     let piJson = '{"pi":' + calculatedPi + ',\r\n';
     piJson = piJson+'"iterations":' + iterations + ',\r\n';
     piJson = piJson+'"error":' + Math.abs(pi-calculatedPi) + ',\r\n';
+    piJson = piJson+'"datetime": "' + new Date().toISOString() +'",\r\n';
+    piJson = piJson+'"version": 1.4 \r\n';
     piJson = piJson+ '}';
     return piJson;
 }
