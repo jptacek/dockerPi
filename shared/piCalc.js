@@ -7,7 +7,7 @@ function calcPi(iterations) {
     let pointsIterated = 0;
     let pointsInsideCircle = 0;
     let calculatedPi = 0;
-    const pi=3.14159265359;
+    const pi = 3.14159265359;
 
     for (var i = 0; i < iterations; i++) {
         pointsIterated++;
@@ -22,13 +22,13 @@ function calcPi(iterations) {
         calculatedPi = (4 * pointsInsideCircle / pointsIterated);
 
     }
-    logger.debug(pointsInsideCircle + "/" + pointsIterated + " pi == " +calculatedPi);
+    logger.debug(pointsInsideCircle + "/" + pointsIterated + " pi == " + calculatedPi);
     let piJson = '{"pi":' + calculatedPi + ',\r\n';
-    piJson = piJson+'"iterations":' + iterations + ',\r\n';
-    piJson = piJson+'"error":' + Math.abs(pi-calculatedPi) + ',\r\n';
-    piJson = piJson+'"datetime": "' + new Date().toISOString() +'",\r\n';
-    piJson = piJson+'"version": 1.4 \r\n';
-    piJson = piJson+ '}';
+    piJson = piJson + '"iterations":' + iterations + ',\r\n';
+    piJson = piJson + '"error":' + Math.abs(pi - calculatedPi) + ',\r\n';
+    piJson = piJson + '"datetime": "' + new Date().toISOString() + '",\r\n';
+    piJson = piJson + '"version": 1.5 \r\n';
+    piJson = piJson + '}';
     return piJson;
 }
 exports.calcPi = calcPi;
