@@ -1,5 +1,17 @@
+# Docker Pi #
+This is a sample Docker application to calculate Pi using a Monte Carlo method.
+This sample has several steps along the way. You can explore the steps
+and look at the `README.md` for comamnds to run.
+
+Obviously, change the `jptacek` references to your own Docker username.
+
+1. `git checkout step1`
+2. `git checkout step2`
+3. `git checkout step3`
+3. `git checkout step4`
+
 ## Step 4 ##
-### EDeploy to Docker Hub ###
+### Deploy to Docker Hub ###
 * change port to 80
 * get rid of log file
 
@@ -37,7 +49,7 @@ Stop executing image
 ## Step 1 ##
 ### Build the image and execute it ###
 
-Create image 
+Create image
 `docker build -t jptacek/dockerpi .`
 
 Run image
