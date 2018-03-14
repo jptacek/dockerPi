@@ -27,7 +27,7 @@ function calcPi(iterations) {
     piJson = piJson + '"iterations":' + iterations + ',\r\n';
     piJson = piJson + '"error":' + Math.abs(pi - calculatedPi) + ',\r\n';
     piJson = piJson + '"datetime": "' + new Date().toISOString() + '",\r\n';
-    piJson = piJson + '"version": 1.5 \r\n';
+    piJson = piJson + '"version": 1.6 \r\n';
     piJson = piJson + '}';
     return piJson;
 }
