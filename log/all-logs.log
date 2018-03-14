@@ -85,3 +85,4 @@
 {"level":"debug","message":"Calc Pi","timestamp":"5:51:01 PM"}
 {"level":"debug","message":"Iterations: 10","timestamp":"5:51:01 PM"}
 {"level":"debug","message":"9/10 pi == 3.6","timestamp":"5:51:01 PM"}
+{"level":"debug","message":"Running on http://localhost:3000 container: Caprica","timestamp":"06:49:52"}
